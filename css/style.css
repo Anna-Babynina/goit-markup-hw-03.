@@ -1,0 +1,249 @@
+/* цвет основного фона
+background: #E5E5E5
+цвет футера
+background: #2F303A
+цвет  секции "наша команда"
+background: #F5F4FA 
+ цвет заголовков
+ color: #212121
+  цвет параграфов
+  color: #757575
+  цвет h1
+  color: #FFFFFF 
+  logo WebStudio
+  color1: #000000
+  color2: #2196F3
+  цвет тел и почты в футере
+  color: rgba(255, 255, 255, 0.6)
+  #E5E5E5;
+  */
+
+:root {
+  --header-color: #212121;
+  --primary-text-color: #757575;
+  --primary-title-color: #ffffff;
+  --accent-color: #2196f3;
+  --background-hero-footer:#2F303A;
+}
+
+body {
+  font-family: "roboto";
+  color: var(--header-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: 
+  none;
+}
+/* ------------------ header-------------------- */
+
+.logo {
+  font-family: "raleway";
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--header-color)
+} 
+
+.logo-color{
+color: var(--accent-color);
+}
+
+
+ /* ------------header -------------------- */
+
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
+}
+
+.site-nav .current{
+  color: var(--accent-color)
+}
+
+.auth-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+/* ------------------ hero-------------------- */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-title-color);
+}
+.hero {
+  background-color:var(--background-hero-footer);
+}
+
+.btn {
+  font-family: inherit;
+  background: #2196f3;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-title-color);
+}
+
+/* ------------------our benefits-------------------- */
+
+
+.benefits-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-color);
+}
+
+.benefits-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* ------------------menu portfolio------------------- */
+
+.menu-portfolio{
+ font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--header-color);
+}
+
+.first-button{
+color:#ffffff;
+background-color: #2196F3;
+
+}
+
+.galary-text{
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color)
+}
+
+.galary-title{
+  font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+color: var(--header-color);
+}
+
+
+/* ------------------about us------------------- */
+
+.about-title{
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--header-color);
+
+}
+
+/* ------------------our team-------------------- */
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.33em
+  color: var(--header-color)
+}
+
+.team-subtitle {
+   font-size: 16px;
+  line-height: 0.56;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.team{
+  background-color:#F5F4FA ;
+}
+
+/* ------------------contacts-------------------- */
+
+.footer{
+  background-color:var(--background-hero-footer);
+  }
+
+.logo-footer{
+    color: var(--primary-title-color);
+  }
+
+.contacts-tel .link{
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  
+}
+
+.contacts-mailto .link{
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  
+}
+
+.contacts-adress{
+  color:var(--primary-title-color); 
+  font-style: normal;
+  font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -22,9 +22,8 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!--Навигация-->
     <header class="header">
-      <!--Навигация-->
-
       <div class="container header-container">
         <nav class="header-nav">
           <a href="" class="logo link">
@@ -40,29 +39,28 @@
             <li class="menu-item"><a href="" class="nav link">Контакты</a></li>
           </ul>
         </nav>
-        <div class="header-connect">
-          <ul class="auth-nav list">
-            <li class="">
-              <a href="mailto:info@devstudio.com" class="link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="connect-item">
-              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </div>
+
+        <ul class="auth-nav list">
+          <li class="connect-item">
+            <a href="mailto:info@devstudio.com" class="link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="connect-item">
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
       <!--Герой-->
 
-      <section class="hero hero-section">
-        <div class="important-title">
-          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        </div>
-        <div class="important-button">
-          <button type="button" class="hero btn">Заказать услугу</button>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title important-title">
+            Эффективные решения для вашего бизнеса
+          </h1>
+          <button type="button" class="btn hero-button">Заказать услугу</button>
         </div>
       </section>
 
@@ -71,7 +69,7 @@
       <section class="benefits">
         <div class="container">
           <h2 class="visually-hidden">Наши приемущества</h2>
-          <ul class="benefits list benefits-container">
+          <ul class="list benefits-container">
             <li class="benefits-container-block">
               <h3 class="benefits-title">Внимание к деталям</h3>
               <p class="benefits-text">
@@ -114,15 +112,15 @@
           <h2 class="about-title">Чем мы занимаемся</h2>
 
           <ul class="about-list">
-            <li class="about list about-list-container">
+            <li class="list about-list-container">
               <img src="images/box1.jpg" alt="ПК" width="370" />
             </li>
 
-            <li class="about list about-list-container">
+            <li class="list about-list-container">
               <img src="images/box2.jpg" alt="Телефон" width="370" />
             </li>
 
-            <li class="about list about-list-container">
+            <li class="list about-list-container">
               <img src="images/box3.jpg" alt="Планшет" width="370" />
             </li>
           </ul>
@@ -137,28 +135,40 @@
           <ul class="team-list">
             <li class="team-item list team-block team-item-block">
               <img src="images/img-1.jpg" alt="Игорь Демьяненко" width="270" />
-              <h3 class="team-subtitle team-subtitle-block">
-                Игорь Демьяненко
-              </h3>
-              <p class="team-text team-text-block">Product Designer</p>
+              <div class="team-list-block">
+                <h3 class="team-subtitle team-subtitle-block">
+                  Игорь Демьяненко
+                </h3>
+                <p class="team-text team-text-block">Product Designer</p>
+              </div>
             </li>
 
             <li class="team-item list team-block team-item-block">
               <img src="images/img-2.jpg" alt="Ольга Репина" width="270" />
-              <h3 class="team-subtitle team-subtitle-block">Ольга Репина</h3>
-              <p class="team-text team-text-block">Frontend Developer</p>
+              <div class="team-list-block">
+                <h3 class="team-subtitle team-subtitle-block">Ольга Репина</h3>
+                <p class="team-text team-text-block">Frontend Developer</p>
+              </div>
             </li>
 
             <li class="team-item list team-block team-item-block">
               <img src="images/img-3.jpg" alt="Николай Тарасов" width="270" />
-              <h3 class="team-subtitle team-subtitle-block">Николай Тарасов</h3>
-              <p class="team-text team-text-block">Marketing</p>
+              <div class="team-list-block">
+                <h3 class="team-subtitle team-subtitle-block">
+                  Николай Тарасов
+                </h3>
+                <p class="team-text team-text-block">Marketing</p>
+              </div>
             </li>
 
             <li class="team-item list team-block team-item-block">
               <img src="images/img-4.jpg" alt="Михаил Ермаков" width="270" />
-              <h3 class="team-subtitle team-subtitle-block">Михаил Ермаков</h3>
-              <p class="team-text team-text-block">UI Designer</p>
+              <div class="team-list-block">
+                <h3 class="team-subtitle team-subtitle-block">
+                  Михаил Ермаков
+                </h3>
+                <p class="team-text team-text-block">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -167,7 +177,7 @@
     <footer class="footer">
       <div class="container">
         <div class="logo-footer-block">
-          <a href="" class="logo link"
+          <a href="" class="logo-footer-bottom link"
             ><span class="logo-color">Web</span
             ><span class="logo-footer">Studio</span></a
           >
@@ -177,13 +187,13 @@
         <address class="contacts">
           <p class="contacts-adress">г.Киев, пр-т Леси Украинки, 26</p>
           <ul class="contacts-list list">
-            <li class="contacts-mailto contacts-mailto-block">
+            <li class="contacts-mailto contacts-block">
               <a href="mailto:info@example.com" class="link"
                 >info@example.com</a
               >
             </li>
 
-            <li class="contacts-tel contacts-tel-block">
+            <li class="contacts-tel contacts-block">
               <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
             </li>
           </ul>

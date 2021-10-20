@@ -89,6 +89,7 @@ header {
 
 .auth-nav {
   display: flex;
+
   margin-left: auto;
 }
 
@@ -98,6 +99,7 @@ header {
 }
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .nav .link:hover,
@@ -144,6 +146,7 @@ header {
   background-color: var(--background-hero-footer);
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
 }
 
 .hero-title {
@@ -159,6 +162,7 @@ header {
   width: 696px;
   height: 120px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 .btn {
   font-family: inherit;
@@ -218,6 +222,10 @@ header {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+.benefits-block {
+  width: 270px;
+  height: 101px;
+}
 
 .benefits-container-block:not(:last-child) {
   margin-right: 30px;
@@ -228,6 +236,7 @@ header {
 .menu {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .portfolio {
@@ -243,7 +252,10 @@ header {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  border: none;
   color: #212121;
+  background-color: rgba(245, 244, 250, 1);
+  border-radius: 4px;
 }
 
 .galary-item {
@@ -267,7 +279,7 @@ header {
 .galary-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: -50px;
   margin-left: -30px;
 }
 
@@ -343,13 +355,12 @@ header {
 }
 .team-list {
   display: flex;
-  flex-wrap: wrap;
   margin-left: -30px;
   margin-top: 50px;
 }
 .team-list-block {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-block {
@@ -371,6 +382,7 @@ header {
   margin-bottom: 20px;
 }
 .logo-footer-bottom {
+  display: block;
   font-family: "raleway";
   font-size: 26px;
   line-height: 1.19;

@@ -141,8 +141,6 @@ header {
 }
 /* ------------------ hero-------------------- */
 .hero {
-  display: flex;
-  justify-content: center;
   background-color: var(--background-hero-footer);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -156,6 +154,7 @@ header {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  font-weight: 900px;
 }
 
 .important-title {
@@ -252,6 +251,10 @@ header {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
   border: none;
   color: #212121;
   background-color: rgba(245, 244, 250, 1);
@@ -259,7 +262,7 @@ header {
 }
 
 .galary-item {
-  flex-basis: calc((100% - 3 / 30px) / 9);
+  flex-basis: calc((100% - 90px) / 3);
   margin-top: 30px;
   margin-left: 30px;
 }
@@ -279,7 +282,7 @@ header {
 .galary-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -50px;
+  margin-top: 30px;
   margin-left: -30px;
 }
 
@@ -330,7 +333,7 @@ header {
 
 .team-subtitle {
   font-size: 16px;
-  line-height: 0.56;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--header-color);
   margin-bottom: 10px;
@@ -351,11 +354,10 @@ header {
 
 .team-item-block {
   flex-basis: calc((100%-4 * 30px) / 4);
-  margin-left: 30px;
+  margin-right: 30px;
 }
 .team-list {
   display: flex;
-  margin-left: -30px;
   margin-top: 50px;
 }
 .team-list-block {

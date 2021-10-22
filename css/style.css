@@ -70,6 +70,8 @@ img {
 header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px;
+  background: #ffffff;
 }
 .logo {
   font-family: "raleway";
@@ -176,7 +178,7 @@ header {
 
 .hero-button {
   width: 200px;
-  height: 53.92px;
+  /* height: 53.92px; */
   margin-right: auto;
   margin-left: auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -223,7 +225,6 @@ header {
 }
 .benefits-block {
   width: 270px;
-  height: 101px;
 }
 
 .benefits-container-block:not(:last-child) {
@@ -282,7 +283,7 @@ header {
 .galary-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin-top: -30px;
   margin-left: -30px;
 }
 
@@ -291,6 +292,7 @@ header {
 
 .border {
   border: 1px solid rgba(238, 238, 238, 1);
+  border-top:none 
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
@@ -351,8 +353,14 @@ header {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.team-item {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 
-.team-item-block {
+.team-item-block:not(:last-child) {
   flex-basis: calc((100%-4 * 30px) / 4);
   margin-right: 30px;
 }
